@@ -12,7 +12,7 @@
     </author>
 
     <gap:platform name="ios" />
-    <gap:platform name="android" />
+    
 
     <feature name="http://api.phonegap.com/1.0/device" />
     <preference name="permissions" value="none" />
@@ -73,19 +73,17 @@
 	<preference name="AndroidPersistentFileLocation" value="Compatibility" />
 	
     <gap:plugin name="com.phonegap.plugins.pushplugin" version="2.1.1" />
-    <!--<gap:plugin name="com.simplec.plugins.powermanagement" version="0.4.0" />-->
-	<gap:plugin name="nl.x-services.plugins.insomnia" version="3.0" />
-    <gap:plugin name="io.github.pwlin.cordova.plugins.fileopener" version="1.0.1" />
+    
+	<gap:plugin name="io.github.pwlin.cordova.plugins.fileopener" version="1.0.1" />
     <gap:plugin name="it.y3web.cordova.documentinteraction" version="0.2.3" />
     <gap:plugin name="org.apache.cordova.device" version="0.2.8" />
     <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
     <gap:plugin name="org.apache.cordova.file" version="1.0.1" />
     <gap:plugin name="org.apache.cordova.file-transfer" version="0.4.2" />
     <gap:plugin name="org.apache.cordova.inappbrowser" version="0.3.3" />
-    <gap:plugin name="org.apache.cordova.media" version="0.2.8" />
+    
     <gap:plugin name="org.apache.cordova.splashscreen" version="0.2.7" />
-	<gap:plugin name="org.apache.cordova.network-information" version="0.2.7" />
-
+	
     
     <access origin="*" />
 </widget>
